@@ -1,0 +1,80 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: rgb(24, 39, 109);
+}
+
+.trending-products
+
+{
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+
+.products
+{
+    border: 1px solid #fff;
+    border-radius: 20px;
+    background-color: #fff;
+    padding: 10px;
+    margin: 10px;
+    box-shadow: 0 0 35px rgba(0, 0,0 ,0.1);
+}
+.products img{
+    width: 35%;
+    height: auto;
+    border-radius: 20px;
+    
+    
+}
+
+.products h2{
+    font-size: 25px;
+    font-weight: bold;
+    margin: 10px 0;
+}
+
+.products p{
+    margin-bottom: 12px;
+
+     
+
+}
+
+.products span{
+    display: block;
+    margin-top: 5px;
+
+}
+
+.products button
+{
+    
+    background-color: black;
+    color: white;
+    font-weight: bold;
+    font-size: 15px;
+    border: none;
+    border-radius: 5px;
+    padding: 5px;
+    margin-top: 5px;
+    cursor: pointer;
+
+}
+
+.products button:hover
+{
+    background-color: rgb(24, 39, 109);
+    color: white;
+    cursor: pointer;
+}
+
+.setting
+
+{
+    display: flex;
+    gap: 10px;
+    width: 31%;
+}

@@ -1,0 +1,40 @@
+.product-container-wrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 0 auto;
+  }
+  
+  .product-container {
+    border: 2px solid #ddd;
+    padding: 4px;
+    margin: 4px;
+    width: 250px;
+    text-align: center;
+  }
+
+
+  .jalan
+  {
+    border-radius: 50px;
+  }
+  
+  .product-details {
+    margin-top: 10px;
+  }
+  
+  .price {
+    font-weight: bold;
+  }
+  
+  .hidden-products {
+    display: none;
+  }
+  
+  .show-more-button {
+    margin-top: 10px;
+    padding: 5px 10px;
+    background-color: #eee;
+    border: 1px solid #ddd;
+    cursor: pointer
+  }  
